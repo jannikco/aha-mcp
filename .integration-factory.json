@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "50671635833c12735094a04f4b8ca02456e81bf20a55b59b1c9750561ef54681",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://www.aha.io/openapi.json"
+  ],
+  "id": "aha-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Aha! MCP setup and connection checker",
+  "description": "Generate Aha! MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "aha",
+  "appName": "Aha!",
+  "providerDocs": "https://www.aha.io/openapi.json",
+  "providerWebsite": "https://www.aha.io/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://www.aha.io/api",
+    "tenantRequired": true,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-aha-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
