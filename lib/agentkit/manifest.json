@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-aha",
+      "description": "Connect AI agents to Aha! using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-aha/SKILL.md": "1c7beefc5142f43892783f31ac45375c4c9bfb7138123c37c1120d5ea7706c4b"
+  }
+}
